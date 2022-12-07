@@ -53,7 +53,7 @@ def main():
                     elf_2_sections.append(section)
 
                 # check if elf_1_sections contains elf_2_sections and the other way around 
-                check = set(elf_2_sections).issubset(elf_1_sections) or set(elf_1_sections).issubset(elf_2_sections)  
+                check = set(elf_2_sections).issuperset(elf_1_sections) or set(elf_1_sections).issuperset(elf_2_sections)  
 
                 # add up the fully contained pairs
                 if check == True:
