@@ -108,10 +108,10 @@ def main():
             return total_score_2
 
 
-
+        print("   ")
         print('Answer 1: ', answer_1())
         print('Answer 2: ', answer_2())
-
+        print("   ")
 
 if __name__ == "__main__":
     main()

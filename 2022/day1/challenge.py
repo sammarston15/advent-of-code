@@ -13,9 +13,10 @@ def main():
             else:
                 elf_calories += int(entry)
 
-
+        print("   ")
         print('Answer 1: ', max(total_calories_by_elf))
         print('Answer 2: ', sum(sorted(total_calories_by_elf, reverse=True)[:3]))
+        print("   ")
 
 if __name__ == "__main__":
     main()

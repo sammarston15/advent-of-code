@@ -90,10 +90,10 @@ def main():
             return sum(badge_sum_value_list)
 
 
-
-        # print('Answer 1: ', answer_1())
+        print("   ")
+        print('Answer 1: ', answer_1())
         print('Answer 2: ', answer_2())
-
+        print("   ")
 
 if __name__ == "__main__":
     main()
